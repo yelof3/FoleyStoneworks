@@ -33,7 +33,7 @@ disableKinds = ["taxonomy", "section"]
 
 [Params]
   description = "Stone has character, strength, and a history of its own. We honor those qualities through traditional hand craftsmanship, carefully fitting each stone to create walls, structures, and features that are natural, solid, and enduring."
-  logo = "images/banner.jpg"
+  logo = "images/crossed-hammers.jpg"
   favicon = true
 
 [Params.social]
