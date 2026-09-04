@@ -1,0 +1,19 @@
+<!-- Footer -->
+<footer class="wrapper style1 align-center">
+    <div class="inner">
+        <ul class="icons">
+            {{ with .Site.Params.social.instagram }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>{{end}}
+            {{ with .Site.Params.social.linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>{{end}}
+            {{ with .Site.Params.social.email }}<li><a href="mailto:{{ . }}" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>{{ end }}
+            {{ with .Site.Params.social.phone }}<li><a href="tel:{{ . }}" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>{{ end }}
+
+        </ul>
+        <p>Hugo Story &copy; 2020 <a target="_blank" href="https://github.com/caressofsteel/">CaressOfSteel</a><span class="footerspacer icon solid fa-diamond"></span>
+            Ported from <a target="_blank" href="https://html5up.net/uploads/demos/story/">Story</a> by HTML5UP</span>
+</div>
+</footer>
+
+<!-- FontAwesome JS -->
+{{ range .Site.Params.asset.fontawesome_js -}}
+    <script type="text/javascript" src="{{ . | absURL }}"></script>
+{{- end }}

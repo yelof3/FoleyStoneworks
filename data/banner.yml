@@ -1,0 +1,13 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Foley Stoneworks"
+subtitle: |
+  Chris Foley, Stonemason
+content : |
+  My work is grounded in traditional hand craftsmanship and a belief that the finest masonry is the result of patience, precision, and respect for the material.<br><br>
+  Based in Newbury, Massachusetts, but have completed projects throughout New England. 
+button:
+  label : "learn more"
+  link : "#first"
+image : "images/concentric.jpg"
+

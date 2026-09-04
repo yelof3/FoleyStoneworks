@@ -1,0 +1,78 @@
+title: "Project Gallery"
+style: "style2 medium lightbox onscroll-fade-in"
+id: "gallery"
+content: |
+  This is a small sampling of my completed projects.
+pictures:
+  - title: "10' Pool Foundation Retaining Wall"
+    content: 
+    image: "images/gallery/fulls/10foot-pool-foundation-retaining-wall.jpg"
+    thumb: "images/gallery/thumbs/10foot-pool-foundation-retaining-wall.jpg"
+    button: "Details"
+
+  - title: "Stone Walkway in Garden"
+    content: 
+    image: "images/gallery/fulls/stone-walkway.jpg"
+    thumb: "images/gallery/thumbs/stone-walkway-thumb.jpg"
+    button: "Details"
+
+  - title: "Birdbath"
+    content: 
+    image: "images/gallery/fulls/birdbath.jpg"
+    thumb: "images/gallery/thumbs/birdbath-thumb.jpg"
+    button: "Details"
+
+  - title: "Cobblestone Driveway"
+    content: 
+    image: "images/gallery/fulls/cobblestone-driveway.jpg"
+    thumb: "images/gallery/thumbs/cobblestone-driveway-thumb.jpg"
+    button: "Details"
+
+  - title: "Stone Pool Deck, Spa, and Fireplace"
+    content: 
+    image: "images/gallery/fulls/stonepooldeck-spa-fireplace.jpg"
+    thumb: "images/gallery/thumbs/stonepooldeck-spa-fireplace-thumb.jpg"
+    button: "Details"
+
+  - title: "Ledge Wall"
+    content: 
+    image: "images/gallery/fulls/ledge-wall.jpg"
+    thumb: "images/gallery/thumbs/ledge-wall-thumb.jpg"
+    button: "Details"
+
+  - title: "Granite Ampitheater"
+    content: 
+    image: "images/gallery/fulls/granite-ampitheater.jpg"
+    thumb: "images/gallery/thumbs/granite-ampitheater-thumb.jpg"
+    button: "Details"
+
+  - title: "Fine Granite Sunken Courtyard"
+    content: 
+    image: "images/gallery/fulls/fine-granite-sunken-courtyard.jpg"
+    thumb: "images/gallery/thumbs/fine-granite-sunken-courtyard-thumb.jpg"
+    button: "Details"
+
+  - title: "Barn Landing"
+    content: 
+    image: "images/gallery/fulls/barn-landings2.jpg"
+    thumb: "images/gallery/thumbs/barn-landings2-thumb.jpg"
+    button: "Details"
+
+  - title: "Front Walkway"
+    content: 
+    image: "images/gallery/fulls/front-walkway.jpg"
+    thumb: "images/gallery/thumbs/front-walkway-thumb.jpg"
+    button: "Details"
+
+  - title: "Brick Driveway"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/brick-driveway-cambridge2.jpg"
+    thumb: "images/gallery/thumbs/brick-driveway-cambridge2-thumb.jpg"
+    button: "Details"
+
+  - title: "Caledonia Steps"
+    content: 
+    image: "images/gallery/fulls/caledonia-steps1.jpg"
+    thumb: "images/gallery/thumbs/caledonia-steps1-thumb.jpg"
+    button: "Details"
+    

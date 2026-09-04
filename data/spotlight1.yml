@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Chris Foley"
+content: |
+  I’ve always admired what people throughout history have made with stone. Growing up in Portsmouth, Rhode Island, I spent a lot of time around old farm fieldstone walls—climbing on them, hiding behind them, and wondering who had put them there in the first place. They were built with whatever stone was there, one piece at a time, and they’ve held up for a long time.<br><br>
+  Later on, I had the chance to travel through Northern England and see hundreds of miles of old stone walls, along with plenty of stone circles. Some of those walls had been standing for overa thousand years, and the circles even longer. You could see the work in those walls and circles- every stone in its place, seeming like it was supposed to be there.<br><br>
+  That’s what I like about stonework. You can’t rush it, and you can’t force the stone to do something it doesn’t want to do. You have to pay close attention and work with what you’ve got. I try to build walls and other installations the same way they’ve been built for generations: by hand, with good stone, a strong foundation, and an eye toward making something that will still be there long after I’m gone.
+
+image: "images/chris-in-fireplace2.jpg"

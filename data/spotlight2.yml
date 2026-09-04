@@ -1,0 +1,21 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "Foley Stoneworks Specializations"
+content: |
+  <ul class="alt">
+    <li>Patios and Walkways</li>
+    <li>Landscaping</li>
+    <li>Stone Walls</li>
+    <li>Patios and Walkways</li>
+    <li>Fireplaces</li>
+    <li>Retaining Walls</li>
+    <li>Exterior Walls</li>
+
+  </ul>
+  While I tend to specialize in these areas in this list, it is by no means exhaustive. I've had the pleasure of crafting custom columns and beams, bird baths, and much more.<br><br>
+  Below are some examples of the wide variety of projects I've had the pleasure of completing.
+button: 
+  label: "See Examples"
+  link: "#gallery"
+image: "images/barn-landings.jpg"
+
