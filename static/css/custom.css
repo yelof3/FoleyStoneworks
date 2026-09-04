@@ -1,6 +1,23 @@
 @media screen and (max-width: 736px) {
   .gallery article .caption {
     opacity: 1;
+    top: auto;
+    bottom: 0;
+    height: auto;
+    min-height: 3rem;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
     pointer-events: none;
   }
+
+  .gallery article .caption h2,
+  .gallery article .caption h3,
+  .gallery article .caption h4,
+  .gallery article .caption h5,
+  .gallery article .caption h6 {
+    margin: 0;
+    font-size: 1rem;
+  }
 }
+
