@@ -22,12 +22,13 @@
 }
 
 
+/* Hide Netlify honeypot */
+.hidden {
+    display: none !important;
+}
+
 /* Space between reCAPTCHA and submit button */
 .netlify-captcha {
     margin-bottom: 2rem;
-}
-
-.hidden {
-    display: none;
 }
 
