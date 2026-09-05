@@ -21,3 +21,8 @@
   }
 }
 
+
+/* Add space between Netlify reCAPTCHA and submit button */
+form [data-netlify-recaptcha="true"] {
+margin-bottom: 1.5rem;
+}
