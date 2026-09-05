@@ -7,6 +7,9 @@
 	{{ if .Site.Params.favicon }}
 	{{ partial "favicon" }}
 	{{ end }}
+
+	<!--Google Analytics-->
+    {{ template "_internal/google_analytics.html" . }}
 	
 	<!-- CSS -->
 	{{ if hugo.IsServer }}
