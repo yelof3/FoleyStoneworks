@@ -26,3 +26,8 @@
 .netlify-captcha {
     margin-bottom: 2rem;
 }
+
+.hidden {
+    display: none;
+}
+
