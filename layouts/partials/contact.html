@@ -1,0 +1,104 @@
+<section class="wrapper style1 align-center">
+    <div class="inner medium">
+
+    <h2>Get in Touch</h2>
+
+    <p>
+        Interested in stonework for your home or property?
+        Tell us a little about your project and we'll get back to you.
+    </p>
+
+    <form name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true">
+
+        <!-- Honeypot spam protection -->
+        <p class="bot-field">
+            <label>
+                Don't fill this out if you're human:
+                <input name="bot-field" type="text">
+            </label>
+        </p>
+
+        <div class="fields">
+
+            <!-- Name -->
+            <div class="field half">
+                <label for="name">Name</label>
+                <input type="text"
+                       name="name"
+                       id="name"
+                       required>
+            </div>
+
+            <!-- Email -->
+            <div class="field half">
+                <label for="email">Email</label>
+                <input type="email"
+                       name="email"
+                       id="email"
+                       required>
+            </div>
+
+            <!-- Phone -->
+            <div class="field half">
+                <label for="phone">Phone</label>
+                <input type="tel"
+                       name="phone"
+                       id="phone">
+            </div>
+
+            <!-- Project Location -->
+            <div class="field half">
+                <label for="location">Project Location</label>
+                <input type="text"
+                       name="location"
+                       id="location"
+                       placeholder="Town / City">
+            </div>
+
+            <!-- Project Type -->
+            <div class="field">
+                <label for="project-type">Project Type</label>
+                <select name="project_type" id="project-type">
+                    <option value="">-- Please select --</option>
+                    <option value="Stone wall">Stone wall</option>
+                    <option value="Stone structure">Stone structure</option>
+                    <option value="Fireplace">Fireplace</option>
+                    <option value="Restoration or repair">Restoration / repair</option>
+                    <option value="Patio or hardscape">Patio / hardscape</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <!-- Project Details -->
+            <div class="field">
+                <label for="message">Tell us about your project</label>
+                <textarea name="message"
+                          id="message"
+                          rows="6"
+                          placeholder="Tell us about the project, approximate size, existing conditions, timeline, budget, etc."
+                          required></textarea>
+            </div>
+
+        </div>
+
+        <!-- Netlify-provided reCAPTCHA 2 -->
+        <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+        </div>
+
+        <ul class="actions stacked">
+            <li>
+                <input type="submit"
+                       value="Send Message"
+                       class="button fit">
+            </li>
+        </ul>
+
+    </form>
+
+</div>
+</section>

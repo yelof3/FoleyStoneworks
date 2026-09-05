@@ -62,7 +62,7 @@ Based in Newbury, Massachusetts, but have completed projects throughout New Engl
     <div class="content">
         <h2>Chris Foley</h2>
         <p>I’ve always admired what people throughout history have made with stone. Growing up in Portsmouth, Rhode Island, I spent a lot of time around old farm fieldstone walls—climbing on them, hiding behind them, and wondering who had put them there in the first place. They were built with whatever stone was there, one piece at a time, and they’ve held up for a long time.<br><br>
-Later on, I had the chance to travel through Northern England and see hundreds of miles of old stone walls, along with plenty of stone circles. Some of those walls had been standing for overa thousand years, and the circles even longer. You could see the work in those walls and circles- every stone in its place, seeming like it was supposed to be there.<br><br>
+Later on, I had the chance to travel through Northern England and see hundreds of miles of old stone walls, along with plenty of stone circles. Some of those walls had been standing for over a thousand years, and the circles even longer. You could see the work in those walls and circles- every stone in its place, seeming like it was supposed to be there.<br><br>
 That’s what I like about stonework. You can’t rush it, and you can’t force the stone to do something it doesn’t want to do. You have to pay close attention and work with what you’ve got. I try to build walls and other installations the same way they’ve been built for generations: by hand, with good stone, a strong foundation, and an eye toward making something that will still be there long after I’m gone.
 </p>
         
@@ -277,6 +277,111 @@ Below are some examples of the wide variety of projects I've had the pleasure of
         
     </div>
 </section>
+	<section class="wrapper style1 align-center">
+    <div class="inner medium">
+
+    <h2>Get in Touch</h2>
+
+    <p>
+        Interested in stonework for your home or property?
+        Tell us a little about your project and we'll get back to you.
+    </p>
+
+    <form name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true">
+
+        
+        <p class="bot-field">
+            <label>
+                Don't fill this out if you're human:
+                <input name="bot-field" type="text">
+            </label>
+        </p>
+
+        <div class="fields">
+
+            
+            <div class="field half">
+                <label for="name">Name</label>
+                <input type="text"
+                       name="name"
+                       id="name"
+                       required>
+            </div>
+
+            
+            <div class="field half">
+                <label for="email">Email</label>
+                <input type="email"
+                       name="email"
+                       id="email"
+                       required>
+            </div>
+
+            
+            <div class="field half">
+                <label for="phone">Phone</label>
+                <input type="tel"
+                       name="phone"
+                       id="phone">
+            </div>
+
+            
+            <div class="field half">
+                <label for="location">Project Location</label>
+                <input type="text"
+                       name="location"
+                       id="location"
+                       placeholder="Town / City">
+            </div>
+
+            
+            <div class="field">
+                <label for="project-type">Project Type</label>
+                <select name="project_type" id="project-type">
+                    <option value="">-- Please select --</option>
+                    <option value="Stone wall">Stone wall</option>
+                    <option value="Stone structure">Stone structure</option>
+                    <option value="Fireplace">Fireplace</option>
+                    <option value="Restoration or repair">Restoration / repair</option>
+                    <option value="Patio or hardscape">Patio / hardscape</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            
+            <div class="field">
+                <label for="message">Tell us about your project</label>
+                <textarea name="message"
+                          id="message"
+                          rows="6"
+                          placeholder="Tell us about the project, approximate size, existing conditions, timeline, budget, etc."
+                          required></textarea>
+            </div>
+
+        </div>
+
+        
+        <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+        </div>
+
+        <ul class="actions stacked">
+            <li>
+                <input type="submit"
+                       value="Send Message"
+                       class="button fit">
+            </li>
+        </ul>
+
+    </form>
+
+</div>
+</section>
+
 	
 <footer class="wrapper style1 align-center">
     <div class="inner">
@@ -289,6 +394,8 @@ Below are some examples of the wide variety of projects I've had the pleasure of
 
 
 <script type="text/javascript" src="//localhost:1313/js/fontawesome-all.min.js"></script>
+
+
 
 
 		
