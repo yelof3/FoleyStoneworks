@@ -31,12 +31,8 @@
   display: none !important;
 }
 
-.netlify-recaptcha {
-    text-align: center;
-}
-
-.netlify-recaptcha iframe {
-    display: inline-block;
+.g-recaptcha > div:first-child {
+    margin: 0 auto !important;
 }
 
 
