@@ -31,13 +31,14 @@
   display: none !important;
 }
 
-form[name="contact"] [data-netlify-recaptcha="true"] {
+.netlify-recaptcha {
     text-align: center;
 }
 
-form[name="contact"] [data-netlify-recaptcha="true"] > div {
+.netlify-recaptcha iframe {
     display: inline-block;
 }
+
 
 
 
