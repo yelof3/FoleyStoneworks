@@ -35,6 +35,10 @@
     margin: 0 auto !important;
 }
 
+/* Space between reCAPTCHA and submit button */
+.g-recaptcha {
+    margin-bottom: 2rem;
+}
 
 
 
