@@ -12,7 +12,7 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+baseURL = "https://foleystoneworks.com"
 publishDir = "public"
 
 # Remote
@@ -32,6 +32,7 @@ googleAnalytics = "G-BHCVSYXKXM"
 ## -----------------------------------------------
 
 [Params]
+description = "Foley Stoneworks creates handcrafted stonework and masonry with a focus on traditional craftsmanship and timeless design."
 
 [Params.social]
 
