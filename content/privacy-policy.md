@@ -1,7 +1,6 @@
 ---
-title: "Privacy Policy"
+title: "Website Privacy Policy"
 date: 2026-09-13
-draft: true
 ---
 
 ## Introduction
@@ -20,3 +19,4 @@ We implement various security measures to protect your personal information.
 
 ## Changes to This Policy
 We may update this policy from time to time. Please check this page periodically for changes.
+{{ partial "spotlight" site.Data.spotlight1 }}

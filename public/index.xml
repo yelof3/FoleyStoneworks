@@ -7,7 +7,14 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>{year}</copyright>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Privacy Policy</title>
+      <link>//localhost:1313/privacy-policy/</link>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/privacy-policy/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This privacy policy explains how we collect, use, and protect your personal information.&lt;/p&gt;&#xA;&lt;h2 id=&#34;information-we-collect&#34;&gt;Information We Collect&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Personal identification information (e.g., name, email address)&lt;/li&gt;&#xA;&lt;li&gt;Usage data (e.g., user location, browser type)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-we-use-your-information&#34;&gt;How We Use Your Information&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To improve our website&lt;/li&gt;&#xA;&lt;li&gt;To communicate with you&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;data-protection&#34;&gt;Data Protection&lt;/h2&gt;&#xA;&lt;p&gt;We implement various security measures to protect your personal information.&lt;/p&gt;&#xA;&lt;h2 id=&#34;changes-to-this-policy&#34;&gt;Changes to This Policy&lt;/h2&gt;&#xA;&lt;p&gt;We may update this policy from time to time. Please check this page periodically for changes.&#xA;{{ partial &amp;ldquo;spotlight&amp;rdquo; site.Data.spotlight1 }}&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
